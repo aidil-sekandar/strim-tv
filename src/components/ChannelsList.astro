@@ -1,0 +1,37 @@
+---
+const channelsList = [
+  {
+    name: "TV1",
+    logo: "https://upload.wikimedia.org/wikipedia/en/f/f4/Logo_of_TV1_%28Malaysia%29.svg",
+    slug: "tv1",
+  },
+  {
+    name: "TV2",
+    logo: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/TV2_%28Malaysia%29_logo.svg/1200px-TV2_%28Malaysia%29_logo.svg.png",
+    slug: "tv2",
+  },
+  {
+    name: "TV3",
+    logo: "https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/TV3_%28Malaysia%29.svg/2560px-TV3_%28Malaysia%29.svg.png",
+    slug: "tv3",
+  },
+  {
+    name: "TV9",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/TV9_%28Malaysia%29_logo.svg/1200px-TV9_%28Malaysia%29_logo.svg.png",
+    slug: "tv9",
+  },
+];
+---
+
+<section class="container channelsList">
+  {
+    channelsList.map((channel) => (
+      <div class="channelList-card">
+        <a href={`/channels/${channel.slug}`}>
+          <img src={`${channel.logo}`} alt={channel.name} />
+        </a>
+        <p>{channel.name}</p>
+      </div>
+    ))
+  }
+</section>
