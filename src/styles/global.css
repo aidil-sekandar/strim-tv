@@ -98,6 +98,16 @@ section {
   text-align: center;
 }
 
+video::-webkit-media-controls-time-remaining-display {
+  display: none;
+}
+video::-webkit-media-controls-current-time-display {
+  display: none;
+}
+video::-webkit-media-controls-timeline {
+  display: none;
+}
+
 footer {
   border-top: 2px solid rgba(50, 82, 148, 0.25);
   padding: 2em;
