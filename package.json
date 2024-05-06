@@ -10,8 +10,13 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/react": "^3.3.2",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
     "astro": "^4.7.1",
-    "hls.js": "^1.5.9-0.canary.10224"
+    "hls.js": "^1.5.8",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "description": "Enjoy TV channels from Malaysia and International for free",
   "main": "index.js",
