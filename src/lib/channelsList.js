@@ -134,14 +134,6 @@ export const channelsList = [
       "KBS World is a South Korean pay television channel operated by the Korean Broadcasting System aimed at international audiences outside South Korea. It was launched on 1 July 2003 and mainly broadcast in Korean, but subtitles in English, Chinese and Malay are also provided.",
   },
   {
-    name: "tvN Movies (Indo Sub)",
-    source: "http://210.210.155.37/dr9445/h/h21/index.m3u8",
-    slug: "tvn-movies-sub-indo",
-    description:
-      "tvN is a South Korean nationwide pay television network owned by CJ E&M, the entertainment division of CJ ENM. tvN programming consists of a variety of entertainment content focused on television series and variety shows.",
-  },
-
-  {
     name: "Rakuten TV (Family)",
     source: "https://rakuten-family-1-eu.rakuten.wurl.tv/3000.m3u8",
     slug: "rakuten-tv-family",
