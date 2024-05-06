@@ -25,5 +25,6 @@ const pageTitle = activeChannel.name;
     <video class="video-js" controls preload="auto" data-setup="{}">
       <source src={activeChannel.source} type="application/x-mpegURL" />
     </video>
+    <p>{activeChannel.description}</p>
   </section>
 </BaseLayout>
