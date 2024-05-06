@@ -11,7 +11,10 @@
   },
   "dependencies": {
     "astro": "^4.7.1",
-    "hls.js": "^1.5.9-0.canary.10224",
-    "theoplayer": "^7.2.0"
-  }
+    "hls.js": "^1.5.9-0.canary.10224"
+  },
+  "description": "Enjoy TV channels from Malaysia and International for free",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }
