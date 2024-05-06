@@ -53,6 +53,8 @@ section {
 .container {
   max-width: var(--maxwidth);
   margin: 0 auto;
+  padding-left: 1em;
+  padding-right: 1em;
   overflow-x: hidden;
 }
 
@@ -90,6 +92,10 @@ div#vjs_video_3 {
   gap: 1em;
   align-items: center;
   justify-content: center;
+}
+
+.video-player > h1 {
+  text-align: center;
 }
 
 footer {
