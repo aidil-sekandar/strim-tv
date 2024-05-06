@@ -61,7 +61,7 @@ export const channelsList = [
 
   {
     name: "Astro Awani",
-    source: "https://raw.githubusercontent.com/aidil-sekandar/free-tv-malaysia/main/awani.m3u8",
+    source: "https://raw.githubusercontent.com/MIFNtechnology/siaranMy/main/channels/AstroAwani/index.m3u8",
     slug: "astro-awani",
     description:
       "Astro Awani is a Malaysian news channel, founded by and currently broadcast through streaming service and pay TV provider Astro. It broadcasts an array of programmes including bulletins, business & current affairs shows, special interviews, investigative reports, variety programmes, as well as selected magazine shows.",
