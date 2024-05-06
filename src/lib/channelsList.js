@@ -61,7 +61,8 @@ export const channelsList = [
 
   {
     name: "Astro Awani",
-    source: "https://raw.githubusercontent.com/aidil-sekandar/free-tv-malaysia/main/awani.m3u8",
+    source:
+      "https://raw.githubusercontent.com/MIFNtechnology/siaranMy/main/channels/AstroAwani/index.m3u8",
     slug: "astro-awani",
     description:
       "Astro Awani is a Malaysian news channel, founded by and currently broadcast through streaming service and pay TV provider Astro. It broadcasts an array of programmes including bulletins, business & current affairs shows, special interviews, investigative reports, variety programmes, as well as selected magazine shows.",
@@ -134,18 +135,32 @@ export const channelsList = [
       "KBS World is a South Korean pay television channel operated by the Korean Broadcasting System aimed at international audiences outside South Korea. It was launched on 1 July 2003 and mainly broadcast in Korean, but subtitles in English, Chinese and Malay are also provided.",
   },
   {
-    name: "Rakuten TV (Family)",
-    source: "https://rakuten-family-1-eu.rakuten.wurl.tv/3000.m3u8",
-    slug: "rakuten-tv-family",
-    description:
-      "Rakuten TV is a video-on-demand (VOD) and free ad-supported streaming television (FAST) platform, providing movies and TV series for subscription, rental, and purchase as well as FAST channels with a mix of local and global content.",
-  },
-  {
     name: "Vevo Pop",
     source:
       "https://d28edobz3hqdpi.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-shs19slqofvwj-ssai-prd/a6d87d2d-4daf-46e7-a900-9112363d4d97/3.m3u8",
     slug: "vevo-pop",
     description:
       "Vevo is the world's leading music video network, connecting an ever-growing global audience to high quality music video content for more than a decade.",
+  },
+  {
+    name: "Rakuten TV (Family Movies)",
+    source: "https://rakuten-family-1-eu.rakuten.wurl.tv/3000.m3u8",
+    slug: "rakuten-tv-family-movies",
+    description:
+      "Rakuten TV is a video-on-demand (VOD) and free ad-supported streaming television (FAST) platform, providing movies and TV series for subscription, rental, and purchase as well as FAST channels with a mix of local and global content.",
+  },
+  {
+    name: "Rakuten TV (Comedy Movies)",
+    source: "https://rakuten-comedymovies-1-eu.rakuten.wurl.tv/playlist.m3u8",
+    slug: "rakuten-tv-comedy-movies",
+    description:
+      "Rakuten TV is a video-on-demand (VOD) and free ad-supported streaming television (FAST) platform, providing movies and TV series for subscription, rental, and purchase as well as FAST channels with a mix of local and global content.",
+  },
+  {
+    name: "Rakuten TV (Drama Movies)",
+    source: "https://rakuten-tvshows-1-eu.rakuten.wurl.tv/playlist.m3u8",
+    slug: "rakuten-tv-drama-movies",
+    description:
+      "Rakuten TV is a video-on-demand (VOD) and free ad-supported streaming television (FAST) platform, providing movies and TV series for subscription, rental, and purchase as well as FAST channels with a mix of local and global content.",
   },
 ];
