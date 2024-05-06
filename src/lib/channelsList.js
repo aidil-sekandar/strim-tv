@@ -100,6 +100,6 @@ export const channelsList = [
     name: "8TV",
     source:
       "https://live-streams-ssai-01.tonton.com.my/live/a884c33b-6b11-4433-8bf9-a8899939e224/cmaf.isml/.m3u8",
-    slug: "8TV",
+    slug: "8tv",
   },
 ];
