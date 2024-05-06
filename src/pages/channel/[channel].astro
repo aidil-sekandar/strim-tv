@@ -1,0 +1,29 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { channelsList } from "../../lib/channelsList";
+
+export async function getStaticPaths() {
+  const channelsName = [...new Set(channelsList.map((channel) => channel.slug))];
+
+  return channelsName.map((channelName) => {
+    return {
+      params: { channel: channelName },
+    };
+  });
+}
+
+const { channel } = Astro.params;
+const activeChannel = channelsList.find((a) => a.slug === channel);
+const pageTitle = activeChannel.name;
+---
+
+<script slot="video-player-head" defer src="https://vjs.zencdn.net/8.9.0/video.min.js"></script>
+<link slot="video-player-head" href="https://vjs.zencdn.net/8.9.0/video-js.css" rel="stylesheet" />
+<BaseLayout pageTitle={pageTitle}>
+  <section class="container video-player">
+    <h1>You are watching {activeChannel.name}</h1>
+    <video class="video-js" controls preload="auto" data-setup="{}">
+      <source src={activeChannel.source} type="application/x-mpegURL" />
+    </video>
+  </section>
+</BaseLayout>

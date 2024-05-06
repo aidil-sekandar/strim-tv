@@ -9,6 +9,7 @@ import "../styles/global.css";
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
+    <slot name="video-player-head" />
     <title>{pageTitle} | Strim TV</title>
   </head>
   <body>
@@ -16,8 +17,8 @@ import "../styles/global.css";
       <a href="/">Strim TV</a>
     </header>
     <slot />
-    <footer>
-      <p>2024 © Strim TV, All rights reserved.</p>
+    <footer class="container">
+      <p>Strim TV Malaysia 2024</p>
     </footer>
   </body>
 </html>

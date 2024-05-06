@@ -1,9 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 :root {
-  --maxwidth: 48rem;
-  --bodycolor: #180f35;
-  --textcolortheme: #fff;
+  --maxwidth: 60em;
+  --bodycolor: #111927;
 }
 
 * {
@@ -13,14 +12,14 @@
 }
 
 body {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Inter", sans-serif;
+  color: white;
   word-spacing: 0.1rem;
 }
 
 html {
   scroll-behavior: smooth;
   background-color: var(--bodycolor);
-  color: var(--textcolortheme);
 }
 
 a {
@@ -30,7 +29,25 @@ a {
 
 img {
   width: 100%;
-  height: 100%;
+}
+
+header {
+  padding: 2em;
+  text-align: center;
+  border-bottom: 2px solid rgba(50, 82, 148, 0.25);
+}
+
+header > a {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+header > a:hover {
+  color: #30d5c7e5;
+}
+
+section {
+  padding: 2em 0;
 }
 
 .container {
@@ -41,5 +58,42 @@ img {
 
 .channelsList {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1em;
+}
+
+.channelsList-card {
+  background: rgba(50, 82, 148, 0.25);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 1em;
+}
+
+.channelsList-card:hover {
+  background: rgba(90, 113, 158, 0.25);
+}
+
+.channelsList-card > p {
+  text-align: center;
+  font-weight: bold;
+}
+
+div#vjs_video_3 {
+  width: 100%;
+}
+
+.video-player {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  border-top: 2px solid rgba(50, 82, 148, 0.25);
+  padding: 2em;
+  text-align: center;
 }
