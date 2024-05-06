@@ -1,6 +1,5 @@
 ---
 import Player from "../../components/Player";
-import VideoPlayer from "../../components/VideoPlayer.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { channelsList } from "../../lib/channelsList";
 
@@ -20,6 +19,16 @@ const pageTitle = activeChannel.name;
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-  <VideoPlayer activeChannel={activeChannel} />
-  <Player client:load url={activeChannel.source} />
+  <script slot="video-player-head" defer src="https://vjs.zencdn.net/8.9.0/video.min.js"></script>
+  <link
+    slot="video-player-head"
+    href="https://vjs.zencdn.net/8.9.0/video-js.css"
+    rel="stylesheet"
+  />
+  <section class="container video-player">
+    <h1>You are watching {activeChannel.name}</h1>
+    <Player client:load url={activeChannel.source} />
+    <p>{activeChannel.description}</p>
+    <div id="video"></div>
+  </section>
 </BaseLayout>

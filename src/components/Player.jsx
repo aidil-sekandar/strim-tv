@@ -16,7 +16,7 @@ function HLSPlayer({ url }) {
     }
   }, [url]);
 
-  return <video ref={videoRef} controls />;
+  return <video className="video-player-component" ref={videoRef} controls />;
 }
 
 export default HLSPlayer;
