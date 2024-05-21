@@ -1,0 +1,88 @@
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/AqFad2811/epg/main/rtmklik.xml","https://raw.githubusercontent.com/AqFad2811/epg/main/astro.xml"
+
+#EXTINF:-1 tvg-group="siaranMy" tvg-id="101.astro" tvg-name="TV1" tvg-logo="https://raw.githubusercontent.com/aidil-sekandar/strim-tv/main/public/channel-banner/tv1.png",TV1
+https://raw.githubusercontent.com/MIFNtechnology/siaranMy/main/channels/Tv1/index.m3u8
+
+#EXTINF:-1 tvg-group="siaranMy" tvg-id="102.astro" tvg-name="TV2" tvg-logo="https://raw.githubusercontent.com/aidil-sekandar/strim-tv/main/public/channel-banner/tv2.png",TV2
+https://raw.githubusercontent.com/MIFNtechnology/siaranMy/main/channels/Tv2/index.m3u8
+
+#EXTINF:-1 tvg-group="siaranMy" tvg-id="103.astro" tvg-name="TV3" tvg-logo="https://raw.githubusercontent.com/aidil-sekandar/strim-tv/main/public/channel-banner/tv3.png",TV3
+https://tonton-live-ssai.akamaized.net/live/2dd2b7cd-1b34-4871-b669-57b5c9beca23/cmaf.isml/.m3u8
+
+#EXTINF:-1 tvg-group="siaranMy" tvg-id="146.astro" tvg-name="OKEY" tvg-logo="https://mifntechnology.github.io/siaranMy/logo/OkeyTv.png",OKEY
+https://raw.githubusercontent.com/MIFNtechnology/siaranMy/main/channels/TvOkey/index.m3u8
+
+#EXTINF:-1 tvg-group="siaranMy" tvg-id="114.astro" tvg-name="TV Al-Hijrah" tvg-logo="https://raw.githubusercontent.com/aidil-sekandar/strim-tv/main/public/channel-banner/alhijrah.png",TV Al-Hijrah
+https://live.mana2.my/TvAlhijrah/tracks-v3a1/mono.m3u8?token=1716323434-c3c7dc1fc6334534acb26922ccfd1b7b-0-56465c5eb87c417e6689ec3554440a08&auth_key=1716323434-c3c7dc1fc6334534acb26922ccfd1b7b-0-7e360f54a0c9cb1556e6f794268846a3
+
+#EXTINF:-1 tvg-group="siaranMy" tvg-id="TV6" tvg-name="TV6" tvg-logo="https://raw.githubusercontent.com/aidil-sekandar/strim-tv/main/public/channel-banner/tv6.png",TV6
+https://raw.githubusercontent.com/MIFNtechnology/siaranMy/main/channels/Tv6/index.m3u8
+
+#EXTINF:-1 tvg-group="siaranMy" tvg-id="147.astro" tvg-name="DidikTv" tvg-logo="https://raw.githubusercontent.com/aidil-sekandar/strim-tv/main/public/channel-banner/didiktv.png",DidikTv
+https://tonton-live-ssai.akamaized.net/live/0e27ef78-4cc9-4c62-bec9-5c946c9e7354/cmaf.isml/.m3u8
+
+#EXTINF:-1 tvg-group="siaranMy" tvg-id="TVS" tvg-number="121" tvg-logo="https://raw.githubusercontent.com/aidil-sekandar/strim-tv/main/public/channel-banner/tvs.png",TVS
+https://raw.githubusercontent.com/MIFNtechnology/siaranMy/main/channels/Tvs/index.m3u8
+
+#EXTINF:-1 tvg-group="siaranMy" tvg-id="149.astro" tvg-name="TV9" tvg-logo="https://raw.githubusercontent.com/aidil-sekandar/strim-tv/main/public/channel-banner/tv9.png",TV9
+https://tonton-live-ssai.akamaized.net/live/2020783a-0303-401a-9c92-b7c3c9108c0b/cmaf.isml/.m3u8
+ 
+#EXTINF:-1 tvg-group="siaranMy" tvg-id="Berita RTM" tvg-name="BeritaRTM" tvg-logo="https://raw.githubusercontent.com/aidil-sekandar/strim-tv/main/public/channel-banner/berita-rtm.png",BeritaRTM
+https://raw.githubusercontent.com/MIFNtechnology/siaranMy/main/channels/BeritaRTM/index.m3u8
+
+#EXTINF:-1 tvg-group="siaranMy" tvg-id="Sukan RTM" tvg-name="Sukan RTM" tvg-logo="https://raw.githubusercontent.com/aidil-sekandar/strim-tv/main/public/channel-banner/sukan-rtm.png",Sukan RTM
+https://raw.githubusercontent.com/MIFNtechnology/siaranMy/main/channels/SukanRTM/index.m3u8
+
+#EXTINF:-1 tvg-group="siaranMy" tvg-id="tvikim" tvg-number="117" tvg-name="Tv Ikim" tvg-logo="https://raw.githubusercontent.com/aidil-sekandar/strim-tv/main/public/channel-banner/tvikim.png", TV Ikim
+https://raw.githubusercontent.com/MIFNtechnology/siaranMy/main/channels/TvIkim/index.m3u8
+
+#EXTINF:-1 tvg-group="siaranMy" tvg-id="501.astro" tvg-number="501" tvg-name="AstroAwani" tvg-logo="https://raw.githubusercontent.com/aidil-sekandar/strim-tv/main/public/channel-banner/astro-awani.png", Astro Awani
+https://raw.githubusercontent.com/MIFNtechnology/siaranMy/main/channels/AstroAwani/index.m3u8
+
+#EXTINF:-1 tvg-group="siaranMy" tvg-id="Dewan Rakyat" tvg-name="DewanRakyat" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2a/RTM_Parlimen.png ",Dewan Rakyat
+https://raw.githubusercontent.com/MIFNtechnology/siaranMy/main/channels/DewanRakyat/index.m3u8
+
+#EXTINF:-1 tvg-group="siaranMy" tvg-id="Dewan Negara" tvg-name="DewanNegara" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2a/RTM_Parlimen.png",DewanNegara
+https://raw.githubusercontent.com/MIFNtechnology/siaranMy/main/channels/DewanNegara/index.m3u8
+
+#EXTINF:-1 tvg-group="siaranMy" tvg-id="Cartoon Network" tvg-name="Cartoon Network" tvg-logo="https://raw.githubusercontent.com/aidil-sekandar/strim-tv/main/public/channel-banner/cartoon-network-sea.png",Cartoon Network
+https://cdn1.skygo.mn/live/disk1/Cartoon_Network/HLS-FTA/Cartoon_Network.m3u8
+
+#EXTINF:-1 tvg-group="siaranMy" tvg-id="CNN" tvg-name="CNN" tvg-logo="https://raw.githubusercontent.com/aidil-sekandar/strim-tv/main/public/channel-banner/cnn-usa.png",CNN
+https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+
+#EXTINF:-1 tvg-group="siaranMy" tvg-id="BBC" tvg-name="BBC" tvg-logo="https://raw.githubusercontent.com/aidil-sekandar/strim-tv/main/public/channel-banner/bbc-na.png",BBC
+https://d2vnbkvjbims7j.cloudfront.net/containerA/LTN/playlist.m3u8
+
+#EXTINF:-1 tvg-group="siaranMy" tvg-id="AlJazeera" tvg-name="Al Jazeera" tvg-logo="https://raw.githubusercontent.com/aidil-sekandar/strim-tv/main/public/channel-banner/aljazeera.png",Al Jazeera
+https://d1cy85syyhvqz5.cloudfront.net/v1/master/7b67fbda7ab859400a821e9aa0deda20ab7ca3d2/aljazeeraLive/AJE/index.m3u8
+
+#EXTINF:-1 tvg-group="siaranMy" tvg-id="KBS World" tvg-name="KBS World (Eng Sub)" tvg-logo="https://raw.githubusercontent.com/aidil-sekandar/strim-tv/main/public/channel-banner/kbs-world.png",KBS World (Eng Sub)
+https://kbsworld-ott.akamaized.net/hls/live/2002341/kbsworld/master.m3u8
+
+#EXTINF:-1 tvg-group="siaranMy" tvg-id="Rakuten TV (Family Movies)" tvg-name="Rakuten TV (Family Movies)" tvg-logo="https://raw.githubusercontent.com/aidil-sekandar/strim-tv/main/public/channel-banner/rakuten-tv-family-movies.png",Rakuten TV (Family Movies)
+https://rakuten-family-1-eu.rakuten.wurl.tv/3000.m3u8
+
+#EXTINF:-1 tvg-group="siaranMy" tvg-id="Rakuten TV (Drama Movies)" tvg-name="Rakuten TV (Drama Movies)" tvg-logo="https://raw.githubusercontent.com/aidil-sekandar/strim-tv/main/public/channel-banner/rakuten-tv-drama-movies.png",Rakuten TV (Drama Movies)
+https://rakuten-tvshows-1-eu.rakuten.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-group="siaranMy" tvg-id="Rakuten TV (Comedy Movies)" tvg-name="Rakuten TV (Comedy Movies)" tvg-logo="https://raw.githubusercontent.com/aidil-sekandar/strim-tv/main/public/channel-banner/rakuten-tv-comedy-movies.png",Rakuten TV (Comedy Movies)
+https://rakuten-comedymovies-1-eu.rakuten.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-group="radio" tvg-id="Hot Fm" tvg-name="HotFm" tvg-logo="https://mifntechnology.github.io/siaranMy/logo/HotFm.png",HotFm
+https://mediaprima.rastream.com/mediaprima-hotfm
+
+#EXTINF:-1 tvg-group="radio" tvg-id="Buletin Fm" tvg-name="BuletinFm" tvg-logo="https://mifntechnology.github.io/siaranMy/logo/BuletinFm.png",BuletinFm
+https://mediaprima.rastream.com/mediaprima-koolfm
+
+#EXTINF:-1 tvg-group="radio" tvg-id="Era" tvg-name="Era" tvg-logo="https://mifntechnology.github.io/siaranMy/logo/Era.png",Era
+https://n15.rcs.revma.com/gs7xxfmbv4uvv/15_14h92ghunhmja02/playlist.m3u8
+ 
+#EXTINF:-1 tvg-group="radio" tvg-id="Hitz Fm" tvg-name="Hitz Fm" tvg-logo="https://mifntechnology.github.io/siaranMy/logo/HitzFm.png",HitzFm
+https://n44a-eu.rcs.revma.com/488kt4sbv4uvv/68_1txzsglqw5l3t02/playlist.m3u8
+ 
+#EXTINF:-1 tvg-group="radio" tvg-id="Sinar Fm" tvg-name="SinarFm" tvg-logo="https://mifntechnology.github.io/siaranMy/logo/SinarFm.png",SinarFm
+https://n08a-eu.rcs.revma.com/azatk0tbv4uvv/8_1ksmof3jo7vso02/playlist.m3u8
+ 
+#EXTINF:-1 tvg-group="radio" tvg-id="Suria Fm" tvg-name="SuriaFm" tvg-logo="https://mifntechnology.github.io/siaranMy/logo/Suria.png",SuriaFm
+https://playerservices.streamtheworld.com/api/livestream-redirect/SURIA_FMAAC.aac?dist=joox

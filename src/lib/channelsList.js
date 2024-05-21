@@ -1,6 +1,3 @@
-import { deserializeManifest } from "astro/app";
-import { defineScriptVars } from "astro/compiler-runtime";
-
 export const channelsList = [
   {
     name: "TV1",
@@ -21,7 +18,7 @@ export const channelsList = [
   {
     name: "TV3",
     source:
-      "https://raw.githubusercontent.com/MIFNtechnology/siaranMy/main/channels/Tv3/index.m3u8",
+      "https://tonton-live-ssai.akamaized.net/live/2dd2b7cd-1b34-4871-b669-57b5c9beca23/cmaf.isml/.m3u8",
     slug: "tv3",
     description:
       "Sistem Televisyen Malaysia Berhad, operating as TV3, is a Malaysian free-to-air television channel owned by Malaysian media conglomerate, Media Prima. TV3 is the third oldest TV station in Malaysia. It was launched on 1 June 1984 as the country's first and oldest private television channel.",
@@ -29,7 +26,7 @@ export const channelsList = [
   {
     name: "TV9",
     source:
-      "https://raw.githubusercontent.com/MIFNtechnology/siaranMy/main/channels/Tv9/index.m3u8",
+      "https://tonton-live-ssai.akamaized.net/live/2020783a-0303-401a-9c92-b7c3c9108c0b/cmaf.isml/.m3u8",
     slug: "tv9",
     description:
       "Ch-9 Media Sdn. Bhd., operating as TV9 is a Malaysian free-to-air television network owned and operated by Media Prima Berhad. It airs programming that tends mostly towards the Malay demographic.",
@@ -51,12 +48,12 @@ export const channelsList = [
       "TV6 is a free terrestrial television channel in the sixth state government Radio Television Malaysia.[1] TV6 back-up featuring dramas, entertainment, Malay music, movies and documentaries previously published by the archive Radio Television Malaysia in the 1960s, 1970s, 1980s, 1990s, 2000s and 2010s.",
   },
   {
-    name: "8TV",
+    name: "Al Hijrah",
     source:
-      "https://live-streams-ssai-01.tonton.com.my/live/a884c33b-6b11-4433-8bf9-a8899939e224/cmaf.isml/.m3u8",
-    slug: "8tv",
+      "https://live.mana2.my/TvAlhijrah/tracks-v3a1/mono.m3u8?token=1716323434-c3c7dc1fc6334534acb26922ccfd1b7b-0-56465c5eb87c417e6689ec3554440a08&auth_key=1716323434-c3c7dc1fc6334534acb26922ccfd1b7b-0-7e360f54a0c9cb1556e6f794268846a3",
+    slug: "al-hijrah",
     description:
-      "Metropolitan TV Sdn. Bhd., operating as 8TV, is a Malaysian Chinese-language free-to-air television network focused on the Chinese community of Malaysia, owned and operated by Media Prima. The channel formerly existed as MetroVision from 1 July 1995 until 1 November 1999 and relaunched as 8TV on 8 January 2004.",
+      "TV Alhijrah is a state-owned Malaysian free-to-air Islamic television channel, owned and operated by Al-Hijrah Media Corporation, a company under the purview of the Department of Islamic Development Malaysia of the Prime Minister's Department.",
   },
 
   {
@@ -70,7 +67,7 @@ export const channelsList = [
   {
     name: "DidikTV",
     source:
-      "https://raw.githubusercontent.com/MIFNtechnology/siaranMy/main/channels/DidikTvKPM/index.m3u8",
+      "https://tonton-live-ssai.akamaized.net/live/0e27ef78-4cc9-4c62-bec9-5c946c9e7354/cmaf.isml/.m3u8",
     slug: "didiktv",
     description:
       "On 12 February 2021, as the Ministry of Education will have a one-year term with Media Prima, it was announced that NTV7 will be rebranded through a takeover as a fully educational TV channel known as DidikTV KPM starting 17 February; the new channel will focus on educational content based on SPM curriculum and co-curriculum. It would also provide news focused on education, edutainment programs, and content produced by the students.",
@@ -133,14 +130,6 @@ export const channelsList = [
     slug: "kbs-world",
     description:
       "KBS World is a South Korean pay television channel operated by the Korean Broadcasting System aimed at international audiences outside South Korea. It was launched on 1 July 2003 and mainly broadcast in Korean, but subtitles in English, Chinese and Malay are also provided.",
-  },
-  {
-    name: "Vevo Pop",
-    source:
-      "https://d28edobz3hqdpi.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-shs19slqofvwj-ssai-prd/a6d87d2d-4daf-46e7-a900-9112363d4d97/3.m3u8",
-    slug: "vevo-pop",
-    description:
-      "Vevo is the world's leading music video network, connecting an ever-growing global audience to high quality music video content for more than a decade.",
   },
   {
     name: "Rakuten TV (Family Movies)",
