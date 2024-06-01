@@ -48,15 +48,6 @@ export const channelsList = [
       "TV6 is a free terrestrial television channel in the sixth state government Radio Television Malaysia.[1] TV6 back-up featuring dramas, entertainment, Malay music, movies and documentaries previously published by the archive Radio Television Malaysia in the 1960s, 1970s, 1980s, 1990s, 2000s and 2010s.",
   },
   {
-    name: "Al Hijrah",
-    source:
-      "https://live.mana2.my/TvAlhijrah/tracks-v3a1/mono.m3u8?token=1716323434-c3c7dc1fc6334534acb26922ccfd1b7b-0-56465c5eb87c417e6689ec3554440a08&auth_key=1716323434-c3c7dc1fc6334534acb26922ccfd1b7b-0-7e360f54a0c9cb1556e6f794268846a3",
-    slug: "al-hijrah",
-    description:
-      "TV Alhijrah is a state-owned Malaysian free-to-air Islamic television channel, owned and operated by Al-Hijrah Media Corporation, a company under the purview of the Department of Islamic Development Malaysia of the Prime Minister's Department.",
-  },
-
-  {
     name: "Astro Awani",
     source:
       "https://raw.githubusercontent.com/MIFNtechnology/siaranMy/main/channels/AstroAwani/index.m3u8",
